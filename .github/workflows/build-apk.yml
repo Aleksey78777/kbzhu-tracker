@@ -20,9 +20,14 @@ jobs:
           distribution: temurin
           java-version: 17
 
-      - uses: android-actions/setup-android@v3
-
-      - run: sdkmanager "platforms;android-36" "build-tools;36.0.0"
+      # Android SDK уже установлен на серверах GitHub (ANDROID_HOME).
+      # Принимаем лицензии и докачиваем платформу 36 штатным sdkmanager.
+      - name: Android SDK 36
+        run: |
+          SDKMANAGER=$(ls -d "$ANDROID_HOME"/cmdline-tools/*/bin/sdkmanager | sort -V | tail -n 1)
+          echo "sdkmanager: $SDKMANAGER"
+          yes | "$SDKMANAGER" --licenses > /dev/null || true
+          "$SDKMANAGER" "platforms;android-36" "build-tools;36.0.0" "platform-tools"
 
       - uses: gradle/actions/setup-gradle@v4
         with:
