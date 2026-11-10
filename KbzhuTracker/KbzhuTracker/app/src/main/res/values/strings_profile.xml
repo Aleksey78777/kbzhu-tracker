@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="profile_empty">Профиль не заполнен</string>
+    <string name="profile_body_line">%1$s, %2$s · %3$d см · %4$s кг</string>
+    <string name="profile_goal_line">%1$s до %2$s кг · %3$s кг/нед</string>
+    <string name="profile_activity">Активность: %1$s</string>
+    <string name="profile_edit">Изменить профиль и норму</string>
+    <string name="profile_targets">Дневная норма</string>
+    <string name="profile_targets_auto">Рассчитана автоматически и обновляется при отметке веса</string>
+    <string name="profile_targets_manual">Задана вручную</string>
+    <string name="profile_water">Вода</string>
+    <string name="profile_water_goal">Норма воды</string>
+    <string name="profile_water_portion">Одно нажатие «+» в дневнике</string>
+    <string name="profile_water_range">От 500 до 6000 мл</string>
+    <string name="profile_water_error">Укажите значение от 500 до 6000 мл</string>
+    <string name="profile_water_recommended">Рекомендуем по вашему весу: %1$s мл — подставить</string>
+    <string name="profile_theme">Оформление</string>
+    <string name="profile_about">О приложении</string>
+    <string name="profile_version">Версия %1$s</string>
+    <string name="profile_privacy">Все данные хранятся только на этом устройстве и работают без интернета. Сеть нужна лишь для поиска товара по штрих-коду и в онлайн-базе.</string>
+    <string name="profile_off_attribution">Данные об упакованных продуктах — Open Food Facts (openfoodfacts.org), лицензия ODbL.</string>
+    <string name="unit_ml">мл</string>
+    <string name="value_ml">%1$s мл</string>
+    <plurals name="age_years">
+        <item quantity="one">%d год</item>
+        <item quantity="few">%d года</item>
+        <item quantity="many">%d лет</item>
+        <item quantity="other">%d года</item>
+    </plurals>
+</resources>

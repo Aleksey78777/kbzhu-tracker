@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Поиск и списки -->
+    <string name="foods_add_title">Добавить продукт</string>
+    <string name="foods_search_hint">Название или бренд</string>
+    <string name="foods_clear">Очистить</string>
+    <string name="foods_create">Создать</string>
+    <string name="foods_create_product">Свой продукт</string>
+    <string name="foods_create_recipe">Блюдо по рецепту</string>
+    <string name="foods_tab_recent">Недавние</string>
+    <string name="foods_tab_favorites">Избранное</string>
+    <string name="foods_tab_my">Мои</string>
+    <string name="foods_tab_all">Все</string>
+    <string name="foods_empty_recent_title">Здесь появятся недавние</string>
+    <string name="foods_empty_recent_message">Начните вводить название — в базе уже больше 250 продуктов.</string>
+    <string name="foods_empty_fav_title">Избранного пока нет</string>
+    <string name="foods_empty_fav_message">Нажмите на звёздочку у продукта, чтобы он всегда был под рукой.</string>
+    <string name="foods_empty_my_title">Своих продуктов нет</string>
+    <string name="foods_empty_my_message">Добавьте продукт с этикетки или соберите блюдо из нескольких ингредиентов.</string>
+    <string name="foods_nothing_found">Ничего не найдено</string>
+    <string name="foods_nothing_found_message">Попробуйте другое написание, поищите в интернете ниже или создайте свой продукт.</string>
+    <string name="foods_online_title">Поиск в Open Food Facts</string>
+    <string name="foods_online_hint">Открытая база упакованных продуктов. Нужен интернет.</string>
+    <string name="foods_online_search">Найти</string>
+    <string name="foods_online_empty">В интернете тоже ничего не нашлось</string>
+    <string name="foods_online_found">Найдено: %1$d</string>
+
+    <string name="food_badge_recipe">Рецепт</string>
+    <string name="food_badge_mine">Мой продукт</string>
+    <string name="food_favorite">Добавить в избранное</string>
+    <string name="food_unfavorite">Убрать из избранного</string>
+    <string name="food_per100_line">%1$s ккал · Б %2$s · Ж %3$s · У %4$s</string>
+
+    <!-- Карточка продукта / запись -->
+    <string name="detail_add_title">Порция</string>
+    <string name="detail_edit_entry">Изменить запись</string>
+    <string name="detail_edit_food">Редактировать продукт</string>
+    <string name="detail_add_to">Добавить в «%1$s»</string>
+    <string name="detail_per100">На 100 г</string>
+    <string name="detail_amount">Сколько съели</string>
+    <string name="detail_serving">Порция</string>
+    <string name="detail_mode_servings">%1$s (%2$s г)</string>
+    <string name="detail_mode_grams">Граммы</string>
+    <string name="detail_grams">Вес</string>
+    <string name="detail_servings_count">Количество порций</string>
+    <string name="detail_servings_suffix">шт.</string>
+    <string name="detail_equals_grams">Это %1$s г</string>
+    <string name="detail_amount_error">Укажите количество больше нуля</string>
+    <string name="detail_meal">Приём пищи</string>
+    <string name="detail_date">Дата: %1$s</string>
+    <string name="detail_entry_photo">Фото блюда</string>
+    <string name="detail_ingredients">Состав</string>
+    <string name="detail_recipe_yield">Выход %1$s г, порций: %2$d</string>
+    <string name="detail_incomplete">В базе нет данных о калорийности. Дополните их с упаковки.</string>
+    <string name="detail_not_found">Продукт не найден</string>
+    <string name="detail_not_found_message">Возможно, он был удалён.</string>
+    <string name="detail_delete_entry_title">Удалить запись?</string>
+    <string name="detail_delete_entry_message">Запись исчезнет из дневника за этот день.</string>
+
+    <!-- Свой продукт -->
+    <string name="edit_new_title">Новый продукт</string>
+    <string name="edit_title">Редактирование</string>
+    <string name="edit_builtin_copy">Это продукт из встроенной базы — изменения сохранятся как ваш собственный продукт.</string>
+    <string name="edit_name">Название *</string>
+    <string name="edit_brand">Бренд</string>
+    <string name="edit_category">Категория</string>
+    <string name="edit_per100_title">Пищевая ценность на 100 г</string>
+    <string name="edit_calories_error">Укажите калорийность</string>
+    <string name="edit_kcal_from_macros">По БЖУ ≈ %1$s ккал — подставить</string>
+    <string name="edit_serving_title">Порция (необязательно)</string>
+    <string name="edit_serving_name">Название</string>
+    <string name="edit_serving_name_hint">1 шт</string>
+    <string name="edit_serving_size">Вес</string>
+    <string name="edit_barcode">Штрих-код</string>
+    <string name="edit_delete_title">Удалить продукт?</string>
+    <string name="edit_delete_message">Продукт пропадёт из базы. Записи в дневнике сохранятся.</string>
+
+    <!-- Рецепт -->
+    <string name="recipe_new_title">Новое блюдо</string>
+    <string name="recipe_title">Блюдо</string>
+    <string name="recipe_name">Название блюда *</string>
+    <string name="recipe_ingredients">Ингредиенты</string>
+    <string name="recipe_no_ingredients">Добавьте продукты, из которых состоит блюдо, и укажите их вес.</string>
+    <string name="recipe_add_ingredient">Добавить ингредиент</string>
+    <string name="recipe_remove_ingredient">Убрать ингредиент</string>
+    <string name="recipe_cooked_weight">Вес готового блюда</string>
+    <string name="recipe_raw_weight">Сырые продукты: %1$s г</string>
+    <string name="recipe_portions">Порций</string>
+    <string name="recipe_summary">Итого</string>
+    <string name="recipe_total">Всё блюдо (%1$s г)</string>
+    <string name="recipe_per_portion">Порция (%1$s г)</string>
+    <string name="recipe_picker_hint">Начните вводить название продукта</string>
+    <string name="recipe_delete_title">Удалить блюдо?</string>
+    <string name="recipe_delete_message">Блюдо пропадёт из базы. Записи в дневнике сохранятся.</string>
+
+    <!-- Фото -->
+    <string name="photo_title">Фото</string>
+    <string name="photo_camera">Камера</string>
+    <string name="photo_gallery">Галерея</string>
+    <string name="photo_remove">Удалить фото</string>
+
+    <!-- Ошибки -->
+    <string name="error_no_connection">Нет подключения к интернету. Проверьте сеть и попробуйте снова.</string>
+    <string name="error_timeout">Сервер долго не отвечает. Попробуйте ещё раз.</string>
+    <string name="error_server">Сервис временно недоступен. Попробуйте позже.</string>
+    <string name="error_photo">Не удалось загрузить фото</string>
+    <string name="error_camera_permission">Нет доступа к камере. Разрешите его в настройках приложения.</string>
+    <string name="error_empty_name">Введите название</string>
+    <string name="error_invalid_numbers">Проверьте значения: калорийность — от 0 до 950 ккал на 100 г</string>
+    <string name="error_macros_exceed">Белков, жиров и углеводов в сумме не может быть больше 100 г на 100 г продукта</string>
+    <string name="error_no_ingredients">Добавьте хотя бы один ингредиент</string>
+    <string name="error_invalid_weight">Проверьте вес: он должен быть больше нуля</string>
+</resources>

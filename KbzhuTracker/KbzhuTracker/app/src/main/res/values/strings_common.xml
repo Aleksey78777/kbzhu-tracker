@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Общие строки: навигация, единицы, нутриенты, справочники -->
+<resources>
+    <!-- Нижняя навигация -->
+    <string name="nav_diary">Дневник</string>
+    <string name="nav_foods">Продукты</string>
+    <string name="nav_stats">Статистика</string>
+    <string name="nav_profile">Профиль</string>
+
+    <!-- Действия -->
+    <string name="action_back">Назад</string>
+    <string name="action_close">Закрыть</string>
+    <string name="action_next">Далее</string>
+    <string name="action_save">Сохранить</string>
+    <string name="action_retry">Повторить</string>
+    <string name="action_increase">Увеличить</string>
+    <string name="action_decrease">Уменьшить</string>
+
+    <!-- Ошибки -->
+    <string name="error_title">Что-то пошло не так</string>
+
+    <!-- Единицы -->
+    <string name="unit_g">г</string>
+    <string name="unit_kg">кг</string>
+    <string name="unit_cm">см</string>
+    <string name="unit_kcal">ккал</string>
+    <string name="unit_years">лет</string>
+    <string name="value_g">%1$s г</string>
+    <string name="value_kcal">%1$s ккал</string>
+
+    <!-- Нутриенты -->
+    <string name="calories">Калории</string>
+    <string name="protein">Белки</string>
+    <string name="fat">Жиры</string>
+    <string name="carbs">Углеводы</string>
+    <string name="protein_short">Б</string>
+    <string name="fat_short">Ж</string>
+    <string name="carbs_short">У</string>
+    <string name="kcal_left">ккал осталось</string>
+    <string name="kcal_over">ккал сверх нормы</string>
+    <string name="kcal_per_day">ккал в день</string>
+    <string name="cd_calorie_ring">Съедено %1$s из %2$s ккал</string>
+
+    <!-- Приёмы пищи -->
+    <string name="meal_breakfast">Завтрак</string>
+    <string name="meal_lunch">Обед</string>
+    <string name="meal_dinner">Ужин</string>
+    <string name="meal_snack">Перекусы</string>
+
+    <!-- Категории продуктов -->
+    <string name="cat_vegetables">Овощи и зелень</string>
+    <string name="cat_fruits">Фрукты и ягоды</string>
+    <string name="cat_meat">Мясо и птица</string>
+    <string name="cat_fish">Рыба и морепродукты</string>
+    <string name="cat_eggs">Яйца</string>
+    <string name="cat_dairy">Молочное</string>
+    <string name="cat_grains">Крупы и бобовые</string>
+    <string name="cat_bakery">Хлеб и выпечка</string>
+    <string name="cat_nuts">Орехи и сухофрукты</string>
+    <string name="cat_oils">Масла и соусы</string>
+    <string name="cat_sweets">Сладости и снеки</string>
+    <string name="cat_drinks">Напитки</string>
+    <string name="cat_ready">Готовые блюда</string>
+    <string name="cat_other">Другое</string>
+
+    <!-- Пол, цели, активность -->
+    <string name="gender_male">Мужской</string>
+    <string name="gender_female">Женский</string>
+
+    <string name="goal_lose">Похудеть</string>
+    <string name="goal_lose_desc">Снизить вес за счёт умеренного дефицита калорий</string>
+    <string name="goal_maintain">Поддерживать вес</string>
+    <string name="goal_maintain_desc">Питаться сбалансированно и сохранить текущую форму</string>
+    <string name="goal_gain">Набрать массу</string>
+    <string name="goal_gain_desc">Небольшой профицит калорий для роста мышц</string>
+
+    <string name="activity_sedentary">Минимальная</string>
+    <string name="activity_sedentary_desc">Сидячая работа, почти нет тренировок</string>
+    <string name="activity_light">Низкая</string>
+    <string name="activity_light_desc">Прогулки или лёгкие тренировки 1–3 раза в неделю</string>
+    <string name="activity_moderate">Средняя</string>
+    <string name="activity_moderate_desc">Тренировки 3–5 раз в неделю</string>
+    <string name="activity_high">Высокая</string>
+    <string name="activity_high_desc">Интенсивные тренировки 6–7 раз в неделю</string>
+    <string name="activity_extreme">Очень высокая</string>
+    <string name="activity_extreme_desc">Физическая работа и ежедневные тренировки или по 2 в день</string>
+
+    <!-- Тема -->
+    <string name="theme_system">Как в системе</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
+</resources>

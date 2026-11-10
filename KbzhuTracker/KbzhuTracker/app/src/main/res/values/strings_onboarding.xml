@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onb_step_of">%1$d из %2$d</string>
+    <string name="onb_start">Начать</string>
+    <string name="onb_recommended">рекомендуем</string>
+
+    <string name="onb_gender_title">Давайте познакомимся</string>
+    <string name="onb_gender_subtitle">Пол нужен для точного расчёта базового обмена веществ</string>
+
+    <string name="onb_body_title">Ваши параметры</string>
+    <string name="onb_body_subtitle">Эти данные останутся только на телефоне</string>
+    <string name="onb_age">Возраст</string>
+    <string name="onb_age_error">Укажите возраст от 14 до 100 лет</string>
+    <string name="onb_height">Рост</string>
+    <string name="onb_height_error">Укажите рост от 120 до 230 см</string>
+    <string name="onb_weight">Текущий вес</string>
+    <string name="onb_weight_error">Укажите вес от 30 до 300 кг</string>
+
+    <string name="onb_goal_title">Какая у вас цель?</string>
+
+    <string name="onb_target_title">Желаемый вес и темп</string>
+    <string name="onb_target_subtitle_lose">Безопасный темп похудения — до 1 кг в неделю</string>
+    <string name="onb_target_subtitle_gain">Медленный набор помогает расти мышцам, а не жиру</string>
+    <string name="onb_target_weight">Желаемый вес</string>
+    <string name="onb_target_error_lose">Для похудения желаемый вес должен быть меньше текущего</string>
+    <string name="onb_target_error_gain">Для набора желаемый вес должен быть больше текущего</string>
+    <string name="onb_current_weight">Сейчас: %1$s кг</string>
+    <string name="onb_rate_title">Темп</string>
+    <string name="onb_rate_value">%1$s кг в неделю</string>
+    <string name="onb_rate_lose_slow">Мягко и почти незаметно</string>
+    <string name="onb_rate_lose_normal">Оптимальный баланс скорости и комфорта</string>
+    <string name="onb_rate_lose_fast">Быстро, понадобится дисциплина</string>
+    <string name="onb_rate_lose_max">Максимальный темп, подходит при большом лишнем весе</string>
+    <string name="onb_rate_gain_slow">Минимум лишнего жира</string>
+    <string name="onb_rate_gain_normal">Оптимально для набора мышц</string>
+    <string name="onb_rate_gain_fast">Быстрый набор, возможен рост жира</string>
+
+    <string name="onb_activity_title">Уровень активности</string>
+    <string name="onb_activity_subtitle">Учитывайте работу, прогулки и тренировки</string>
+
+    <string name="onb_macros_title">Белки, жиры, углеводы</string>
+    <string name="onb_macros_subtitle">Как распределить калории. Если сомневаетесь — оставьте сбалансированный вариант</string>
+    <string name="preset_balanced">Сбалансированно</string>
+    <string name="preset_high_protein">Больше белка</string>
+    <string name="preset_low_carb">Меньше углеводов</string>
+    <string name="preset_sport">Спорт</string>
+    <string name="onb_grams_per_day">≈ %1$d г в день</string>
+    <string name="onb_macros_sum_ok" formatted="false">Сумма: 100% — отлично</string>
+    <string name="onb_macros_sum_error">Сумма: %1$d%%. Должно быть ровно 100%%</string>
+
+    <string name="onb_result_title">Ваша норма готова</string>
+    <string name="onb_result_subtitle">Рассчитано по формуле Миффлина — Сан-Жеора</string>
+    <string name="onb_bmr">Базовый обмен (BMR)</string>
+    <string name="onb_tdee">Расход с учётом активности</string>
+    <string name="onb_deficit">Дефицит для похудения</string>
+    <string name="onb_surplus">Профицит для набора</string>
+    <string name="onb_adjustment_none">Корректировка</string>
+    <string name="onb_weeks_to_goal">До желаемого веса</string>
+    <string name="onb_weeks_value">≈ %1$d нед.</string>
+    <string name="onb_clamped_warning">Мы подняли норму до безопасного минимума. Вес будет снижаться немного медленнее выбранного темпа — зато без вреда для здоровья.</string>
+    <string name="onb_manual_title">Скорректировать вручную</string>
+    <string name="onb_manual_subtitle">Например, по рекомендации врача или тренера</string>
+    <string name="onb_manual_error">Норма должна быть от 800 до 8000 ккал</string>
+    <string name="onb_change_later">Профиль и норму можно изменить позже на вкладке «Профиль».</string>
+</resources>

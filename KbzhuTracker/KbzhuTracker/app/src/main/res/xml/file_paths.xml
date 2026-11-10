@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Временные снимки с камеры до сжатия -->
+    <cache-path name="camera" path="camera/" />
+    <!-- Итоговые сжатые фото продуктов и записей -->
+    <files-path name="photos" path="photos/" />
+</paths>
