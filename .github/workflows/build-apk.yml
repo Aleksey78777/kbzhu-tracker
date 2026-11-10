@@ -8,6 +8,8 @@ jobs:
   build:
     runs-on: ubuntu-24.04
     timeout-minutes: 30
+    permissions:
+      contents: write   # нужно, чтобы выложить APK в Releases
     defaults:
       run:
         # Проект лежит во вложенной папке
@@ -40,6 +42,21 @@ jobs:
           name: kbzhu-tracker-debug-apk
           path: KbzhuTracker/KbzhuTracker/app/build/outputs/apk/debug/*.apk
           if-no-files-found: error
+
+      # Постоянная прямая ссылка на свежий APK:
+      # https://github.com/<владелец>/<репозиторий>/releases/download/latest/kbzhu-tracker.apk
+      - name: Опубликовать APK в Releases
+        if: github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          cp app/build/outputs/apk/debug/app-debug.apk kbzhu-tracker.apk
+          gh release delete latest --yes --cleanup-tag || true
+          gh release create latest kbzhu-tracker.apk \
+            --title "КБЖУ Трекер — последняя сборка" \
+            --notes "Debug-сборка из коммита ${GITHUB_SHA::7}. Установка: скачать kbzhu-tracker.apk на телефон и открыть." \
+            --prerelease
 
       - name: Отчёты, если сборка упала
         if: failure()
